@@ -1,0 +1,84 @@
+/* header css */
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background-color: #f5f5f5;
+}
+
+.left h2 {
+	color: #6c6ad8;
+	text-transform: capitalize;
+	font-size: 25px;
+	line-height: 60px;
+}
+
+.right ul {
+    text-align: right;
+    margin-bottom: 0;
+}
+.right ul li {
+	display: inline-block;
+	margin-left: -4px;
+}
+.right ul li a {
+	display: inline-block;
+	padding: 0 18px;
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #6c6ad8;
+    line-height: 60px;
+    transition: .4s;
+}
+.right ul li a:hover{
+    color: #000;
+}
+
+/* banner css */
+
+.banner{
+    background-image: url(https://i.ibb.co/DC2Rc8g/morgan-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    padding: 200px 0;
+}
+.banner-title h2 {
+	text-transform: capitalize;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* about css */
+
+
+.about{
+    background-color: #f5f5f5;
+}
+.about-content{
+    color: #9d9d9d;
+}
+.content-right p{
+    color: #9d9d9d;
+}
+.about-bottom p{
+    color:#9d9d9d;
+}
+
+/* contact css */
+.contact{
+    background-color: #f5f5f5;
+}
+.contact-form{
+    color: #9d9d9d;
+}
+
+/* fotter css */
+
+
+.fotter{
+    background-color: #0062d3;
+}
+.fotter-bottom p{
+    color: #ddd;
+}
